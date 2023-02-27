@@ -1,0 +1,173 @@
+body{
+
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#f25454;
+
+}
+
+.navbar::after{
+    content: ".";
+    width: 100%;
+    height: 1PX;
+    background-color: white;
+    position:fixed;
+    top: 10%;
+
+}
+
+ 
+.carousel-inner img {
+    height: 90vh;
+    background-size: cover;
+}
+.carousel-control-next {
+    margin-top: 5%;
+    padding-left:10%;
+/* border: 5px!important; */
+}
+.carousel-control-prev {
+    padding-right: 10%;
+    margin-top: 5%;
+
+}
+
+.home .mouse-icon{
+    width: 45px;
+    height: 60px;
+    border: 5px solid white;
+    bottom: 5%;
+    animation: moving 1s linear infinite;
+
+    }
+
+    .home .mouse-icon::after{
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 6px;
+        margin-left: 40%;
+        background-color: rgba(255, 255, 255, 0.555);
+        bottom: 5px;
+    }
+        
+        @keyframes moving {
+            0%{
+                bottom: 7%;
+            }
+            50%{
+                bottom: 5%;
+            }
+            100%{
+                bottom: 7%;
+            }
+        }
+        .home .setting{
+            top: 20%;
+            background-color: rgba(0, 0, 0, 0.548);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+.carousel-inner h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:white;
+
+}
+
+.carousel-item{
+overflow: hidden;
+}
+.title{
+    position: relative;
+}
+.title h2{
+    font-size: 60px;
+    color: #ccc;
+    font-weight: 500;
+}
+.title h3{
+font-size: 40px;
+position: absolute;
+top:50%;
+left:50%;
+font-weight: 500;
+}
+.right-side .skills {
+    position: absolute;
+    left: 80px;
+    margin-top: 15%;
+}
+.skill-iteam p{
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+
+.services-item:hover{
+
+color: #f25454;
+
+}
+
+
+
+
+.content .skills{
+    margin-right:70%;
+
+}
+.content .persent {
+    position: absolute;
+    left: 70%;
+    bottom: 7%;
+
+}
+
+ .Our-Team .layer {
+            background-color: rgba(187, 48, 48, 0.5);
+            transition: 1s;
+            width:100%;
+        }  
+.team-item:hover .layer {
+            opacity: 1 !important;
+        }
+.services-item {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.indicator-iteam img{
+
+    width: 200px !important;
+    height: 200px !important;
+}       
+
+.indicator-iteam img.active{
+
+    width: 250px !important;
+    height: 250px !important;
+}
+.carousel-item p{
+    width: 500px;
+    margin: auto;
+}
+.clint-info{
+    display: none;
+}
+.indicator-iteam img.active:first-of-type + div{
+    display:block ;
+}
+
+
+
+
+
+
